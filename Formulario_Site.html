@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <title>Formulário para Contato.</title>
+        <link rel="shortcut icon" href ="favicon.ico" type="image/x-icon">
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+    </head>
+    <budy>
+        <a href="SiteHTML.html">Home</a>
+        <br>
+        <form>
+            <h2>Fomulário para Contato</h2>
+            <img src="Imagem_Contato.jpg" alt="Imagem de ícones de contato." title="Imagem de ícones de contato." width="440">
+            <p>Responda com seus dados para melhor interação com o site.</p>
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <label for="nome">Nome:</label>
+                                <input type="text" name="nome" id="nome" value="" placeholder="Digite seu nome" required>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="celular">Tel/Cel:</label>
+                                <input type="number" name="celular" id="celular" value="" placeholder="DDD+Celular" required>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="dataNascimento">Data de Nascimento:</label>
+								<input type="date" name="dataNascimento">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </fieldset>
+            <fieldset>
+                <legend>Algumas Pergutinhas...</legend>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <ul>
+									<li>
+									<label for="consumoAgua">Você consegue imaginar a quantidade de água que utilizamos todos os dias? <br> Escreva abaixo quantos litros de água você acha que consome durante um dia. <br> </label>
+									<input type="text" name="consumo" id="consumo" value="" placeholder = "Valor em litros" required>
+									</li>
+								</ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <ul>
+									<li>
+									<label for="conta">Você sabe dizer porque a água é tão importante para a vida humana e natureza? <br> </label>
+									<input type="text" name="conta" id="conta" value="" placeholder = "Conte-me um pouco" required>
+									</li>
+								</ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="reset" value="Limpar">
+								<input type="submit" value="Enviar">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </fieldset>
+        </form>
+    </budy>
+</html>
